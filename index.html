@@ -7,7 +7,41 @@
     <title>Translator App</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="app-header">
+            <img src="img/parrot.png" alt="Image of a parrot">
+            <div>
+                <h1>PollyGlot</h1>
+                <p>Perfect Translation Every Time</p>
+            </div>
+        </div>
+        <div class="app-body">
+
+            <div class="app-body-container">
+                <h2>Text to translate 👇</h2>
+                <textarea name="input-text" id="text-translate" cols="50" rows="5" placeholder="How are you?"></textarea>
+                <div class="translate-result">
+                    <label for="input" id="select-lang">Select a language👇</label>
+                    <div id="lang-selection">
+                      <div class="lang">
+                        <input type="radio" id="french" name="language" value="french" checked>
+                        <label for="french">French 🇫🇷</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="spanish" name="language" value="spanish">
+                        <label for="spanish">Spanish 🇪🇸</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="japanese" name="language" value="japanese">
+                        <label for="japanese">Japanese 🇯🇵</label>
+                      </div>
+                    </div>
+                    <button id="translate-btn">Translate</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
     <script src="script.js"></script>
