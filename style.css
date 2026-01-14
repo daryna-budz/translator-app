@@ -36,6 +36,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .app-header img{
@@ -119,4 +120,19 @@ button{
     font-weight: 600;
     font-size: 22px;
     cursor: pointer;
+}
+
+
+#original-text, #translated-text{
+    background-color: #EFF0F4;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 0 50px 10px;
+    width: 90%;
+    border: none;
+    margin-top: 20px;
+    color: black;
+
+    margin-bottom: 40px;
 }
